@@ -1,0 +1,53 @@
+body{
+    background-color: #283845;
+}
+.button {
+    position: relative;
+    left: 43.5%;
+    top: 15rem;
+    cursor: pointer;
+    display: inline-block;
+    border: 0;
+    font-weight: bold;
+    padding: 10px 20px;
+    background: white;
+    color: black;
+    font-size: 15px;
+    border: 1px solid #fff;
+    border-radius: 0.5rem;
+    text-align: center;
+    font-size: 1.1rem;
+    padding: 20px;
+    width: 13rem;
+    height: 6rem;
+    transition: all 0.3s;
+    cursor: pointer;
+    margin: 5px;
+    text-align: center;
+    align-items: center;
+}
+
+.button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.button:hover span {
+    padding-right: 25px;
+}
+
+.button:hover span:after {
+    opacity: 1;
+    right: 0;
+}

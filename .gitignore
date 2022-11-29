@@ -1,0 +1,4 @@
+#env
+.env
+
+# esto hace que el .env sea ignorado en github probablemente se tnega que crear una variable de entorno en railway o heroku
